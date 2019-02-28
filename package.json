@@ -11,6 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^2.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-vue": "^5.2.2",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3333",
     "vue": "^2.6.7",
