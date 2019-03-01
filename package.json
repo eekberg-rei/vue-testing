@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "mocha"
+    "test": "mocha --require @babel/polyfill --require @babel/register ./test/**/*.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
     "css-loader": "^2.1.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
